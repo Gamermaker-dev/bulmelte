@@ -1,6 +1,9 @@
 {
 	"name": "bulmelte",
 	"version": "0.0.1",
+	"repository": {
+		"url": "https://github.com/Gamermaker-dev/bulmelte"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
