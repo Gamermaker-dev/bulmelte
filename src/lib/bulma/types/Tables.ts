@@ -1,0 +1,1 @@
+export type Tables = 'bordered' | 'striped' | 'narrow' | 'hoverable' | 'fullwidth';
