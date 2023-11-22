@@ -1,4 +1,4 @@
-export type Breadcrumb = {
+export type BreadcrumbItem = {
     label: string;
     url: string;
     isActive?: boolean;

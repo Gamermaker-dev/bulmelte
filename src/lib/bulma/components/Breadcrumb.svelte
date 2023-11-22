@@ -2,11 +2,11 @@
 	import clsx from 'clsx';
 	import type { Alignments } from '../types/Alignments';
 	import type { Sizes } from '../types/Sizes';
-	import type { Breadcrumb } from '../types/Breadcrumb';
+	import type { BreadcrumbItem } from '../types/Breadcrumb';
 	import Icon from '../elements/Icon.svelte';
 	import type { Separators } from '../types/Separators';
 
-	export let breadcrumbs: Breadcrumb[] = [];
+	export let breadcrumbs: BreadcrumbItem[] = [];
 
 	export let alignment: Alignments | undefined = undefined;
 	export let size: Sizes | undefined = undefined;
